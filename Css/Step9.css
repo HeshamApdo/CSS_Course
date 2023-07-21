@@ -1,0 +1,44 @@
+/*
+  Block
+  - Take Full Width If No Width
+  - Add Line Break
+  - Respect Padding, Margin, Width, Height
+*/
+div{
+    background-color: rgb(174, 157, 172);
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+}
+
+/*Inline
+
+- Do Not Repsepct Width, Height
+- Respect Padding And Margin [ Just Right + Left ]
+- Do Not Add Line Break
+- Allow Elements Bef
+*/
+span{
+    background-color: fuchsia;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+}
+
+
+/*Inline-Block
+
+- Allow Elements Before And After It in The Same Line
+- Respect Padding, Margin, Width, Height
+*/
+
+p{
+    display: inline-block;
+    background-color: rgb(174, 38, 56);
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+}

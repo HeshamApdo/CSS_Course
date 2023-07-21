@@ -1,0 +1,30 @@
+.one span{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.two::first-letter{
+    background-color: rgb(0, 81, 255);
+    padding: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.two::first-line{
+    background-color: aqua;
+    padding: 5px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+::selection{
+    background-color: purple;
+    color: yellow;
+}

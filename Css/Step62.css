@@ -1,0 +1,56 @@
+/*
+- Animation
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    transform: translate(-50% , -50%);
+    animation-name: change-color;
+    animation-duration: 6s;
+    /* animation-fill-mode: forwards; */
+    animation-fill-mode: backwards;
+}
+
+/* @keyframes change-color{
+    form{
+        background-color: red;
+    }
+
+    to{
+        background-color: blue;
+    }
+} */
+
+@keyframes change-color{
+    0%{
+        background-color: red;
+    }
+
+    50%{
+        background-color: green;
+    }
+
+    100%{
+        background-color: blue;
+    }
+}

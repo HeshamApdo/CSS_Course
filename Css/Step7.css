@@ -1,0 +1,11 @@
+div{
+    background-color: bisque;
+    padding-left: 10px;
+    width: 70%;
+    margin: auto;
+    border-width: 10px;
+    border-color: black red powderblue green;
+    border-style: dashed;
+    border-style: solid dashed double groove;
+    border: 10px solid red;
+}

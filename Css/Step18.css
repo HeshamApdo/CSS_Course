@@ -1,0 +1,14 @@
+p{
+    background-color:#eee;
+    padding: 10px;
+    font-size: large;
+    color: purple;
+    width: 136px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 
+p:hover{
+    overflow: visible;
+} */

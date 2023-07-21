@@ -1,0 +1,20 @@
+/*
+em==> بيورث من الاب حجم الخط
+rem==> بيورث من المتصفح حجم الخط 
+vw==> 9= vw لو عندك مثلا حجم المتصفح بتاعك 900 يبقا ال
+*/
+
+
+div{
+    font-size: 20px;
+}
+
+div span{
+    font-size: 2em;
+    font-size: 2rem;
+}
+
+div{
+    font-size: 5vw;
+    font-size: 45px;
+}

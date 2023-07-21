@@ -1,0 +1,18 @@
+.parent{
+    background-color: red;
+    padding: 10px;
+}
+
+.parent div{
+    background-color: #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    /* display: inline-block; */
+    width: 25%;
+    float: left;
+}
+
+.class{
+    clear: both;
+}

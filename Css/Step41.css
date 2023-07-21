@@ -1,0 +1,54 @@
+/*
+  Flexible Box
+  For Parent
+  - display: flex => To Start Flexible Box
+  - flex-direction: row => Default Value
+  - flex-wrap: nowrap => Default Value
+  - flex-flow: [Flex-Direction] + [Flex-Wrap]
+*
+
+/* *{
+    box-sizing: border-box;
+} */
+
+
+.flex{
+    background-color: #eee;
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    flex-flow: row nowrap;
+}
+
+.flex div{
+    background-color: red;
+    color: white;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.float{
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.float div{
+    background-color: red;
+    color: white;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+

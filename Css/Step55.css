@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.parent{
+    background-color: #eee;
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(6  , auto);
+    gap: 10px 10px;
+}
+
+.parent div{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.parent .nine{
+    background-color: green;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 5;
+    grid-column-end: 6;
+    grid-area: 2 / 2 / 5 / 6;
+}
+
+

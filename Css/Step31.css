@@ -1,0 +1,55 @@
+.one{
+    background-color: red;
+    color: white;
+}
+
+.two{
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+}
+
+p{
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+}
+
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+
+
+.ch:checked + label{
+    color: red;
+}
+
+.ch2:checked + label{
+    text-decoration: line-through;
+}
+
+div:empty {
+    border: 10px solid red;
+}
+
+p:empty{
+    border: 10px solid blue;
+}
+
+.text{
+    border: 4px solid black;
+}
+
+.text:focus{
+    border-color: red;
+    outline: none;
+}

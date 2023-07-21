@@ -1,0 +1,27 @@
+.div1{
+    background-image: linear-gradient(to right, red,green,blue);
+    /* background-image: linear-gradient(to right, red 80%,green 200px,blue); */
+    /* background-image: linear-gradient( 180deg, red,green,blue); */
+    width: 800px;
+    height: 400px;
+}
+/* Using for Gradients*/
+.div2{
+    width: 400px;
+    height: 200px;
+    background-color: #eee;
+    margin: 20px auto;
+    position: relative;
+    padding: 10px;
+}
+
+.div2::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right, #2980b9 20% , #27ae60 20% , #27ae60 40% , #234223 40% , #234223 60% , blue 60% , blue 80% , red 80% , red 100%);
+}

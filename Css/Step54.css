@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.parent{
+    background-color: #eee;
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(6  , auto);
+    gap: 10px 10px;
+}
+
+.parent div{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.parent .one{
+    grid-column: 1 / 5;
+}
+
+.parent .four{
+    grid-column: span 4;
+}
+.parent .seven{
+    grid-column: 2 / span 3;
+}
+.parent .five{
+    grid-row: span 3;
+}
+.parent .three{
+    grid-row: span 3;
+}

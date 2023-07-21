@@ -1,0 +1,26 @@
+.with-ser,
+.without-ser{
+    background-color: #eee;
+    padding: 30px;
+}
+
+.with-ser{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.without-ser{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.div2{
+    background-color: aqua;
+    font-family: 'Playfair Display', serif; 
+}
+
+
+/*لو انت حملت نوع الخط عل جهازك ح*/
+@font-face {
+    font-family: و;  /* اسم الخط*/
+    src: url();  /* مسار الخط*/
+}

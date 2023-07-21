@@ -1,0 +1,7 @@
+div{
+    background-color: rgb(226, 177, 43);
+    width: 300px;
+    padding: 10px;
+    outline: 20px solid red;
+    border: 10px solid black;
+}

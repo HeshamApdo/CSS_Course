@@ -1,0 +1,55 @@
+/*
+  CSS Selectors
+  - :not(Selectors)
+  - :nth-child(n)
+  - :nth-last-child(n)
+  - :nth-of-type(n)
+  - :nth-last-of-type(n)
+*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p:not(:first-child){
+    color: red;
+}
+p:not(.special){
+    color: blue;
+}
+p:nth-child(2){
+    background-color: red;
+    color: white;
+}
+p:nth-child(4){
+    background-color: purple;
+    color: yellow;
+}
+
+div:nth-child(even){
+    color: blue;
+}
+div:nth-child(odd){
+    color: blue;
+}
+span{
+    display: block;
+}
+span:nth-last-child(2){
+    color: red;
+}
+
+p:nth-of-type(8){
+    background-color: orangered;
+    color: blue;
+
+}
+
+p:nth-last-of-type(4){
+    background-color: blue;
+    color: white;
+
+}

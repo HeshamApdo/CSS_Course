@@ -1,0 +1,43 @@
+/*
+  CSS Selectors
+  - :first-child
+  - :last-child
+  - :first-of-type
+  - :last-of-type
+  - :only-child
+*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p:first-child{
+    color: red;
+}
+p:last-child{
+    color: blue;
+}
+
+section:first-of-type{
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+section:last-of-type{
+    color: yellow;
+    background-color: purple;
+    padding: 10px;
+}
+
+p:only-child{
+    background-color: aqua;
+    color: purple;
+}
+
+article:only-of-type{
+    background-color: orangered;
+    color: blue;
+}

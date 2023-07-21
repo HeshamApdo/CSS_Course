@@ -1,0 +1,8 @@
+p{
+    caret-color: red;
+}
+
+a{
+    /* pointer-events: none; */
+    pointer-events: stroke;
+}

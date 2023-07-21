@@ -1,0 +1,45 @@
+/*
+----Css Variables----
+Global Variables
+Local Variables
+*/
+
+:root{
+    --mainColor: red;
+    --padding: 30px;
+}
+
+.main{
+    background-color: var(--mainColor , blue );
+    color: white;
+    padding: 20px;
+}
+
+h2{
+    background-color: #eee;
+    color: green;
+    padding: var(--padding);
+    margin-top: 10px;
+}
+
+p{
+    color: green;
+    padding: calc(20px + var(--padding));
+    border: var(--padding) solid green;
+}
+
+a{
+    color: blue;
+    font-weight: bold;
+}
+
+a:hover{
+    color: green;
+}
+
+.local{
+    --mainColor: purple;
+    background-color: var(--mainColor);
+    color: yellow;
+    padding: 20px;
+}

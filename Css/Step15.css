@@ -1,0 +1,22 @@
+div{
+    background-color: #EEE;
+    color: purple;
+    text-shadow: -2px 2px 20px red;
+    text-align: center;
+    direction: ltr;
+}
+
+img{
+    vertical-align: top;
+}
+
+span{
+    color: red;
+    font-size: xx-large;
+    vertical-align: bottom;
+    text-shadow: -1px 1px 5px red;
+}
+
+p{
+    direction: rtl;
+}

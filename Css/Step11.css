@@ -1,0 +1,47 @@
+.one{
+    padding: 10px;
+    border-bottom: 2px solid red;
+    color: red;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+
+.two{
+    padding: 10px;
+    border-bottom: 2px solid green;
+    color: green;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+
+.three{
+    padding: 10px;
+    border-bottom: 2px solid blue;
+    color: blue;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+
+.four{
+    padding: 10px;
+    border-bottom: 2px solid purple;
+    color: purple;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+
+.one,
+.two,
+.three,
+.four{
+    padding: 40px;
+    margin: 50px;
+}
+
+p,
+#first{
+    background-color: #EEE;
+    padding: 70px;
+    margin: 10px;
+    border-bottom: 10px solid red;
+}

@@ -1,0 +1,6 @@
+div{
+    background-color: aqua;
+    padding: 50px 20px 60px;   /* Click(Top Right Bottom Left) */
+    padding: 0 0 10px;
+    padding-bottom: 10px;
+} 

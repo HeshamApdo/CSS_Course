@@ -1,0 +1,53 @@
+/*
+- Animation
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    background-color: rgba(223, 232, 230, 0.418);
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    margin-left: -50px;
+    margin-top: -50px;
+    animation-name: spin;
+    animation-duration: 1s;
+    border-radius: 50%;
+    border: 5px solid red;
+    border-left-color: transparent;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse;
+    animation-delay: 2s;
+    animation-fill-mode: forwards; */
+    /* animation-play-state: running; */
+    animation: spin 9s ease 2s reverse 2 forwards running; /* -ShortHand */
+}
+
+div:hover{
+    animation-play-state: paused;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(1turn);
+    }
+}
+

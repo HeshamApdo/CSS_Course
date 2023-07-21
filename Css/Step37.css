@@ -1,0 +1,42 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.parent{
+    background-color: #ddd;
+    padding: 20px;
+    width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.one{  
+    background-color: #eeee;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    box-sizing: content-box;
+    border: 10px solid red;
+}
+
+
+.parent2{
+    background-color: #ddd;
+    padding: 20px;
+    width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.two{  
+    background-color: #eeee;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px solid red;
+}
+

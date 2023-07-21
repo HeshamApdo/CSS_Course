@@ -1,0 +1,92 @@
+/*
+2D Transform
+Rotate
+- deg => Degree
+- rad => Radians
+- grad => Gradients
+- turn => Turn
+/*
+  matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+*/
+/*
+  transform-origin
+  Syntax
+  Default Values => 50% 50% 0
+  2D Transform => transform-origin(X, Y)
+  3D Transform => transform-origin(X, Y, Z)
+  X-Axis
+  - CSS Unit [px, em, rem]
+  - %
+  - Keyword
+  -- Left = 0%
+  -- Center = 50%
+  -- Right = 100%
+  Y-Axis
+  - CSS Unit [px, em, rem]
+  - %
+  - Keyword
+  -- Top = 0%
+  -- Center = 50%
+  -- Bottom = 100%
+*/
+
+
+
+div {
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255 0 0 / 39%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    /* transform: rotate(180deg); */
+    /* transform: translate(100px , 100px); */
+    /* transform: skew(30deg , 40deg) */
+    /* transform: skewX(30px); */
+    /* transform: skewY(30px); */
+    /* transform: matrix(1.2, 0.2679, 0, 1.2, 20, 20); */
+    /* transform: translateX(20px) translateY(20px) scaleX(1.2) skewY(15deg) skewX(0deg) scaleY(1.2); */
+    /* transform-origin: 50% 20%; */
+    /* transform: rotate(45deg); */
+
+}
+
+.image{
+    overflow: hidden;
+    width: 360px;
+    height: 239px;
+}
+
+.image img{
+    transition: 0.5s;
+}
+.image:hover img{
+    transform: scale(1.3) rotate(5deg);
+    opacity: 0.6;
+}
+
+h2{
+    position: relative;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    margin: 10px auto;
+    /* transform: skew(10deg); */
+
+}
+
+h2:before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: skew(10deg);
+}

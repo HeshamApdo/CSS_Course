@@ -1,0 +1,52 @@
+.one{
+    background-color: red;
+    padding: 10px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.two{
+    background-color: #00ff37da;
+    padding: 10px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.content{
+    background-color: blue;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+
+.click{
+    background-color: aqua;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+body{
+    height: 5000px;
+}
+
+
+.sticky{
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 10px;
+}

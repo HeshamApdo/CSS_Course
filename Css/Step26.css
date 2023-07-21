@@ -1,0 +1,29 @@
+div{
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+    height: calc((100% - 60px) / 5);
+    margin-top: 10px;
+    color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    cursor: grab;
+    background-image: url(../Images/OIP\ \(1\).jpg);
+    text-decoration: underline;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+
+/*
+Content height Is: 100%
+6 Spaces  10px * 6 => 60px From Content height
+100% - 60px Available Space
+5 Elements The height Is: (100% - 60px) / 5
+*/
+
+
+body{
+    margin-top: 0;
+}

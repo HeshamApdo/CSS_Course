@@ -1,0 +1,33 @@
+/*
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - gap: [Row Gap] [Column Gap]
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: #eee;
+    width: 800px;
+    height: 700px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: 200px 200px 300px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.parent div{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
